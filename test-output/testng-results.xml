@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6738" started-at="2022-07-01T11:20:23Z" finished-at="2022-07-01T11:20:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6738" started-at="2022-07-01T11:20:23Z" finished-at="2022-07-01T11:20:30Z">
+      <class name="ibmfullstack.restassuredframework.assignment">
+        <test-method status="PASS" signature="firstPOST(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:ibmfullstack.restassuredframework.assignment@6ad5c04e]" name="firstPOST" duration-ms="3195" started-at="2022-07-01T16:50:23Z" data-provider="postData" finished-at="2022-07-01T16:50:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nishitha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass0608]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPOST -->
+        <test-method status="PASS" signature="firstPUT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:ibmfullstack.restassuredframework.assignment@6ad5c04e]" name="firstPUT" duration-ms="1199" started-at="2022-07-01T16:50:26Z" data-provider="putData" depends-on-methods="ibmfullstack.restassuredframework.assignment.firstPOST" finished-at="2022-07-01T16:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sirikonda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HYDERABAD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass0320]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPUT -->
+        <test-method status="PASS" signature="firstDELETE(java.lang.String)[pri:0, instance:ibmfullstack.restassuredframework.assignment@6ad5c04e]" name="firstDELETE" duration-ms="1145" started-at="2022-07-01T16:50:27Z" data-provider="deleteData" depends-on-methods="ibmfullstack.restassuredframework.assignment.firstPUT" finished-at="2022-07-01T16:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishitha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDELETE -->
+        <test-method status="PASS" signature="anotherGET(java.lang.String)[pri:0, instance:ibmfullstack.restassuredframework.assignment@6ad5c04e]" name="anotherGET" duration-ms="1181" started-at="2022-07-01T16:50:29Z" data-provider="deleteData" depends-on-methods="ibmfullstack.restassuredframework.assignment.firstDELETE" finished-at="2022-07-01T16:50:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishitha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherGET -->
+      </class> <!-- ibmfullstack.restassuredframework.assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
